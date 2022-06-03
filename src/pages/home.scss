@@ -1,0 +1,41 @@
+.modal-todo {
+  min-height: 500px;
+  width: 700px;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  &_heading {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 50px;
+    font-weight: 600;
+  }
+
+  &_list {
+    margin-top: 20px;
+    height: 600px;
+    overflow-y: hidden;
+  }
+
+  &_btn {
+    margin: 15px auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+
+    &-filter {
+      background-color: #3a7bd5;
+      color: white;
+      width: 160px;
+      padding: 5px;
+      transition: all 0.5s ease;
+      border-radius: 8px;
+
+      &:hover {
+        background-color: #1655ac;
+      }
+    }
+  }
+}
